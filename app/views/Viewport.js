@@ -1,7 +1,6 @@
 NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
     fullscreen: true,
     title: 'Music',
-    displayField: 'text',
     store: NestedListDemo.music_store,
     getDetailCard: function(item, parent) {
         var itemData = item.attributes.record.data,
@@ -14,5 +13,9 @@ NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
         detailCard.update(itemData);
         this.backButton.setText(parentData.text);
         return detailCard;
+    },
+    getItemTextTpl: function() {
+        var tplConstructor = '{text}';
+        return tplConstructor;
     }
 });
