@@ -1,4 +1,5 @@
-NestedListDemo.views.Viewport = Ext.extend(Ext.Panel, {
+NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
     fullscreen: true,
-    html: 'It works!'
+    title: 'Music',
+    store: undefined,
 });
