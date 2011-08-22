@@ -2,10 +2,10 @@ This Git repository includes all of the source code used in creating a tutorial 
 
 The tutorial includes several checkpoints:
 
-* [Blank slate][00] - the application skeleton
-* [Basic nested list setup][01] - configuring the nested list with a tree store and model
-* [Create a detail card][02] - making the detail card for leaf nodes
-* [Add metadata to listings][03] - adding metadata to the list items
+* [Blank slate - the application skeleton][00]
+* [Basic nested list setup - configuring the nested list with a tree store and model][01] ([view diff][00-01])
+* [Create a detail card - making the detail card for leaf nodes][02] ([view diff][01-02])
+* [Add metadata to listings - adding metadata to the list items][03] ([view diff][02-03])
 
 Using this repository to follow the screencast
 ----------------------------------------------
@@ -44,5 +44,9 @@ You can try out the demo here:
 [01]: https://github.com/senchalearn/Nested-list-demo/tree/01_setup_nested_list
 [02]: https://github.com/senchalearn/Nested-list-demo/tree/02_create_detail_card
 [03]: https://github.com/senchalearn/Nested-list-demo/tree/03_add_metadata_to_listings
+
+[00-01]: https://github.com/senchalearn/Nested-list-demo/compare/00_blank_slate...01_setup_nested_list
+[01-02]: https://github.com/senchalearn/Nested-list-demo/compare/01_setup_nested_list...02_create_detail_card
+[02-03]: https://github.com/senchalearn/Nested-list-demo/compare/02_create_detail_card...03_add_metadata_to_listings
 
 [d]: http://senchalearn.github.com/Nested-list-demo/
