@@ -50,3 +50,35 @@ You can try out the demo here:
 [02-03]: https://github.com/senchalearn/Nested-list-demo/compare/02_create_detail_card...03_add_metadata_to_listings
 
 [d]: http://senchalearn.github.com/Nested-list-demo/
+
+---
+
+## Getting the sinatra app running ##
+
+This example uses [Sinatra][] to run a simple backend that serves json responses. To run it on your system, you will need to have Sinatra and postresql installed.
+
+### Installing Sinatra (and all dependencies) ###
+
+Sinatra is a very simple web application framework written in ruby. If you have rubygems installed, then you can set up your environment simply by running the following from the root directory for this project:
+
+    gem install bundler
+    bundle install
+
+This installs all of the dependencies required to make this Sinatra app run.
+
+### Create the database ###
+
+Create the Postgres database:
+
+    createdb music_catalogue
+    rake db:seed
+
+## Deploying to Heroku ##
+
+Run:
+
+    git push heroku master
+    heroku rake db:seed
+
+[eg]: http://dev.sencha.com/deploy/touch/examples/nestedlist/
+[Sinatra]: http://www.sinatrarb.com/
