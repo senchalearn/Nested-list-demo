@@ -42,7 +42,7 @@ You can try out the demo here:
 
 QR code for your convenience, if you want to try the demo on mobile device:
 
-![QR Code](qrcode.png)
+![QR Code](https://github.com/josefrichter/Nested-list-demo/raw/master/qrcode.png)
 
 [00]: https://github.com/senchalearn/Nested-list-demo/tree/00_blank_slate
 [01]: https://github.com/senchalearn/Nested-list-demo/tree/01_setup_nested_list
