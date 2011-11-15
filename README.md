@@ -40,6 +40,10 @@ You can try out the demo here:
 
 * [http://senchalearn.github.com/Nested-list-demo/][d]
 
+QR code for your convenience, if you want to try the demo on mobile device:
+
+![QR Code](qrcode.png)
+
 [00]: https://github.com/senchalearn/Nested-list-demo/tree/00_blank_slate
 [01]: https://github.com/senchalearn/Nested-list-demo/tree/01_setup_nested_list
 [02]: https://github.com/senchalearn/Nested-list-demo/tree/02_create_detail_card
