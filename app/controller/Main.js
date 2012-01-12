@@ -1,16 +1,17 @@
 Ext.define('NestedListDemo.controller.Main', {
     extend: 'Ext.app.Controller',
-    
+
     models: ['ListItem'],
-    views:  ['Viewport'],
-    
+    stores: ['MusicStore'],
+    views:  ['MusicList'],
+
     refs: [
         {
-            ref:       'viewport',
-            selector:  '#rootpanel'
+            ref:       'musicList',
+            selector:  'musiclist'
         }
     ],
-    
+
     init: function() {
         this.control({
             'nestedlist': {
@@ -20,7 +21,7 @@ Ext.define('NestedListDemo.controller.Main', {
     },
 
     updateDetailCard: function(list, index, element, event, options) {
-        var nestedList = this.getViewport(),
+        var nestedList = this.getMusicList(),
             detailCard = nestedList.getDetailCard(),
             store      = list.getStore(),
             item       = store.getAt(index);
