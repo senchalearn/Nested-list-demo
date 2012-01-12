@@ -5,7 +5,6 @@ Ext.define('NestedListDemo.store.MusicStore', {
         type: 'ajax',
         url: '/data/tracks.json',
         reader: {
-            type: 'tree',
             root: 'items'
         }
     }
