@@ -1,7 +1,13 @@
-new Ext.Application({
-    name: "NestedListDemo",
+Ext.Loader.setConfig({
+    enabled: true
+});
 
+Ext.application({
+    name: 'NestedListDemo',
+    
+    controllers: ['Main'],
+    
     launch: function() {
-        this.views.viewport = new this.views.Viewport();
+        Ext.create('NestedListDemo.view.Viewport');
     }
 });

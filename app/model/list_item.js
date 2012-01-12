@@ -1,4 +1,5 @@
-Ext.regModel('ListItem', {
+Ext.define('NestedListDemo.model.ListItem', {
+    extend: 'Ext.data.Model',
     fields: [
         {name: 'text', type: 'string'},
         {name: 'info', type: 'string'},

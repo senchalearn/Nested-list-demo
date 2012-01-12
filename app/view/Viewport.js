@@ -1,7 +1,12 @@
-NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
-    fullscreen: true,
-    title: 'Music',
-    store: NestedListDemo.music_store,
+Ext.define('NestedListDemo.view.Viewport', {
+    extend: 'Ext.NestedList',
+    id: 'rootpanel',
+
+    config: {
+        fullscreen: true,
+        title: 'Music',
+        store: Ext.create('NestedListDemo.store.MusicStore'),
+    },
     getDetailCard: function(item, parent) {
         var itemData = item.attributes.record.data,
         parentData = parent.attributes.record.data,
